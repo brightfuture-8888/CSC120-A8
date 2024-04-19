@@ -10,18 +10,18 @@ Listed below are various aspects of the assignment.  When you turn in your work,
 
 ## Assignment Points:
 
-_____ 10 pts: The class meaningfully implements each of the methods in described in the `Contract` interface:
+_YES____ 10 pts: The class meaningfully implements each of the methods in described in the `Contract` interface:
 
-      _____ `void grab(String item);`
-      _____ `String drop(String item);`
-      _____ `void examine(String item);`
-      _____ `void use(String item);`
-      _____ `boolean walk(String direction);`
-      _____ `boolean fly(int x, int y);`
-      _____ `Number shrink();`
-      _____ `Number grow();`
-      _____ `void rest();`
-      _____ `void undo();`
+      _YES____ `void grab(String item);`
+      _YES____ `String drop(String item);`
+      _YES____ `void examine(String item);`
+      _YES____ `void use(String item);`
+      _YES____ `boolean walk(String direction);`
+      _YES____ `boolean fly(int x, int y);`
+      _YES____ `Number shrink();`
+      _YES____ `Number grow();`
+      _YES____ `void rest();`
+      _YES____ `void undo();`     
 
 
 ## General Items:
@@ -34,14 +34,14 @@ _YES____ 2 pt: Complies with style guidelines (missing items 1 pt each):
 
       _YES____ Classes & class members all have Javadoc header comments 
 
-      _____ Clear and consistent indentation of bracketed sections
+      __YES___ Clear and consistent indentation of bracketed sections
 
-      _____ Adheres to Java conventions on naming & capitalization
+      _YES____ Adheres to Java conventions on naming & capitalization
 
-      _____ Methods & variables all have clear and accurate names
+      _YES____ Methods & variables all have clear and accurate names
 
-      _____ Methods avoid confusing side effects
+      _YES____ Methods avoid confusing side effects
 
-_____ 1 pt: All required files included with submission (including completed `rubric.md` file)
+_YES____ 1 pt: All required files included with submission (including completed `rubric.md` file)
 
-_____ 1 pt: `reflection.md` contains your reflection on the assignment, **including a detailed description of the class you implemented and what it does**
+_YES____ 1 pt: `reflection.md` contains your reflection on the assignment, **including a detailed description of the class you implemented and what it does**
