@@ -1,5 +1,7 @@
-/* Create a class Person that is implemented Contract */
+/* Create a class Person that is implemented by Contract */
 public class Person implements Contract {
+    private int tshirtSize;
+
     public void grab(String item) {
         System.out.println("Wow! You grab an apple!");
     }
@@ -50,16 +52,10 @@ public class Person implements Contract {
 
     /* size 12 T shirt shrinks by 3 inches */
     public Number shrink() {
-        int howMuchTshirtShrinks = 12;
-
-        if (howMuchTshirtShrinks >= 12) {
-            System.out.println("My size 12 T-shirt keeps shrinking by 3 inches... Did I get to an wonderland?" + " "
-                    + "Seems like this place is a wonderland...");
-        } else {
-            howMuchTshirtShrinks = howMuchTshirtShrinks - 3;
-            System.out.println("Shrinks until when it's gone!");
-        }
-        return 0;
+        System.out.println("My T-shirt keeps shrinking by 3 inches... Did I get to an wonderland?" + " "
+                + "Seems like this place is a wonderland...");
+        this.tshirtSize = -3;
+        return this.tshirtSize;
     }
 
     /* A plant grows 4 inches */
