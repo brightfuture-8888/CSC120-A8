@@ -26,13 +26,13 @@ _____ 10 pts: The class meaningfully implements each of the methods in described
 
 ## General Items:
 
-_____ 4 pts: Programs compile without errors or warnings
+_YES____ 4 pts: Programs compile without errors or warnings
 
-_____ 2 pts: Executes fully & consistently without crashing (exception/freeze)
+__YES___ 2 pts: Executes fully & consistently without crashing (exception/freeze)
 
-_____ 2 pt: Complies with style guidelines (missing items 1 pt each):
+_YES____ 2 pt: Complies with style guidelines (missing items 1 pt each):
 
-      _____ Classes & class members all have Javadoc header comments
+      _YES____ Classes & class members all have Javadoc header comments 
 
       _____ Clear and consistent indentation of bracketed sections
 
